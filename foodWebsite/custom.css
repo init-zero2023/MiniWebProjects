@@ -1,0 +1,84 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* utility classes */
+
+.img-responsive {
+    max-width: 100%;
+    display: inline-block;
+    max-height: 27%;
+}
+
+.hero_image {
+    /* background-image: url(''); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("https://images.squarespace-cdn.com/content/v1/5c5c3833840b161566b02a76/1573133725500-Y5PCN0V04I86HDAT8AT0/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/WBC_7095.jpg?format=2500w");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero_wrapper {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero_wrapper h1 {
+    font-size: 3.4rem;
+    text-align: center;
+}
+
+.form_code {
+    text-align: center;
+}
+
+.form_code .post_code {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: 0.7rem;
+    border: none;
+    outline: none;
+}
+
+.form_code button {
+    width: 40%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    /* margin-top: 0.9rem; */
+    margin: 1rem auto 0rem;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+
+/* Product Section */
+
+.product {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.3em;
+}
+
+.product_list_item {
+    float: left;
+    width: 30%;
+    margin: 1rem;
+}
+
+@media screen and (max-width:1000px) {
+    .product_list_item {
+        width: 100%;
+        float: none;
+    }
+}
